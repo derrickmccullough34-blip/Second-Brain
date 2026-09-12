@@ -1,0 +1,24 @@
+﻿# Secrets & Credentials
+.env
+.env.*
+*.key
+*.pem
+*.token
+github_token.txt
+credentials.json
+
+# Dependencies & Build artifacts
+node_modules/
+dist/
+build/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# System & IDE
+.vscode/*
+!.vscode/settings.json
+Thumbs.db
+Desktop.ini
+.DS_Store
